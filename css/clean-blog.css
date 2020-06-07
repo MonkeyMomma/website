@@ -2,7 +2,7 @@
 
 @import "../vendor/fontawesome-free/css/all.min.css";
 
-@import "./clean-blog.min.css";
+@import "../clean-blog.min.css";
 
 body {
   font-size: 20px;
@@ -408,4 +408,21 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: (39, 37, 31);
+}
+
+.flex-container.div {
+  background-color: (253, 90, 30);
+  width: 30%;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
 }
