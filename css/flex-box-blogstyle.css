@@ -1,0 +1,91 @@
+/*css styling for flexbox based blogposts*/
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+
+.flexboxsection {
+  padding: 10px;
+  margin: 10px;
+  background: purple;
+}
+
+.gridboxsection {
+  padding: 10px;
+  margin: 10px;
+  background: purple;
+}
+
+.flexboxheader {
+  background: #c78fe3;
+}
+
+
+/* flexbox CSS here */
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 200px;
+}
+
+article {
+  flex: 1;
+}
+
+article:nth-of-type(3) {
+  flex: 2 200px;
+}
+
+article:nth-of-type(3) div:first-child {
+  flex:1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+  }
+
+.button {
+  background-color: #555555;
+  border-radius: 8px;
+}
+
+/*grid container css */
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.grid-item {
+  display: inline-grid;
+}
