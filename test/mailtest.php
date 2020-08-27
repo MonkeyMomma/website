@@ -1,6 +1,6 @@
 <?PHP
 $sender = 'noreply@monkeymommacreations.com';
-$recipient = 'monkey_momma08@hotmail.com';
+$recipient = 'root@monkeymommacreations.com';
 
 $subject = "php mail test";
 $message = "php test message";
