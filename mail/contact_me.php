@@ -18,10 +18,9 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 //  email and send the message
 $to = 'monkey_momma08@hotmail.com';
 $email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@monkeymommacreations.com\n";
-// This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";
+$email_body = "You have received a new message from your website contact form:\n..", "Here are the details:\n.. Name: $name\r\n Email: $email_address\r\n Phone: $phone\r\n Message:\n.. $message";
+$headers = "From: noreply@monkeymommacreations.com \r\n";
+
 mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>
