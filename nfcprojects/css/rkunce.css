@@ -1,0 +1,19 @@
+.copyright {
+  text-align: center;
+  font-size: xx-small;
+  color: rgba(73, 225, 242, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weblink {
+  text-align: center;
+  font-size: x-small;
+  color: rgba(73, 225, 242, 1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+  text-align: center;
+  height: auto;
+  width: 100vw;
+}
