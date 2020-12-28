@@ -329,7 +329,7 @@ footer .copyright{
     font-size:16px;
     padding:25px 35px
 }
- 
+
 
 
 /* following code is my own css for sidebars */
@@ -344,6 +344,14 @@ footer .copyright{
 .left { display: inline-block;
 	   background-color: #231CC8;
 	   float: left;
+	   padding: 10px;
+	   width: 40%;
+	   margin: 10px;
+}
+.center { display: inline-block;
+	   background-color: #231CC8;
+	   margin-left: auto;
+     margin-right: auto;
 	   padding: 10px;
 	   width: 40%;
 	   margin: 10px;
