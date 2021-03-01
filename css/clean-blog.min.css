@@ -138,19 +138,11 @@ img::-moz-selection{
 header.masthead{
     margin-bottom:50px;
     background:no-repeat center center;
-    background-color:#868e96;
     background-attachment:scroll;
     position:relative;
     background-size:cover
 }
-header.masthead .overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    height:75%;
-    width:100%;
-    background-color:#212529;
-    opacity:.5
+
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
     padding:200px 0 150px;
@@ -361,6 +353,9 @@ img {
     max-height: 100%;
 }
 
+.subheading {
+  font-color: black;
+}
 /*for mobile*/
 [class*="righttext"] {
 	   background-color: #28A6C9;
